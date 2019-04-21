@@ -4,15 +4,13 @@ import sys
 from time import gmtime, strftime
 from sys import exit
 
-"""cic.py: Search IP malicious in malwareworld site api."""
+"""k4scan.py: Search IP malicious in malwareworld site api."""
 __author__      = "Kelvem Sousa - k4m3"
 __copyright__   = "Copyright 2019"
 
 hora = strftime("%H-%M-%S")
 
 print("\033[94m CIC - Search IP and Domain Intelligence \033[00m")
-#print("\033[91m"+line.rstrip('\n')+ " - Malicious"+"\033[00m")
-
 
 if len(sys.argv) != 2:
         print ("Modo de usar: \r\n")
