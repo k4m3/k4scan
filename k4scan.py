@@ -10,7 +10,7 @@ __copyright__   = "Copyright 2019"
 
 hora = strftime("%H-%M-%S")
 
-print("\033[94m CIC - Search IP and Domain Intelligence \033[00m")
+print("\033[94m Search IP and Domain Intelligence \033[00m")
 
 if len(sys.argv) != 2:
         print ("Modo de usar: \r\n")
