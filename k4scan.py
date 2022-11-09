@@ -29,9 +29,6 @@ with open(sys.argv[1]) as file:
                     print(line.rstrip('\n'), file=open("malicioso."+hora, "a"))
                     print("\033[91m"+line.rstrip('\n')+ " - Malicious"+"\033[00m")
 
-#               As linhas abaixo imprime na tela os ips que nao sao maliciosos,
-#               para ativar, basta descomentar.
-
                 else:
                     print("\033[92m"+line.rstrip('\n')+ " - Clean"+"\033[00m")
                     print(line.rstrip('\n'), file=open("nao_malicioso."+hora, "a"))
