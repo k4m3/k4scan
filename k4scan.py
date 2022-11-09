@@ -4,7 +4,7 @@ import sys
 from time import gmtime, strftime
 from sys import exit
 
-"""k4scan.py: Search IP malicious in malwareworld site api."""
+"""k4scan.py: Search IP malicious in malwareworld"""
 __author__      = "Kelvem Sousa - k4m3"
 __copyright__   = "Copyright 2019"
 
